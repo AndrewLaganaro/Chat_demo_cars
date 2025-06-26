@@ -9,7 +9,7 @@ Este projeto é uma demo mínima que simula um chat entre um cliente e um assist
 - O usuário conversa com um assistente via terminal.
 - O assistente coleta informações mínimas obrigatórias: **Marca** e **Tipo** do carro (urbano ou estrada).
 - Uma requisição é feita ao servidor **MCP**, que busca todos os carros da mesma marca e tipo.
-- O modelo LLM gera uma resposta comentando a tabela recebida.
+- O modelo LLM gera uma resposta comentando a tabela recebida e comparando os carros da mesma marca.
 
 Este projeto usa o modelo:
 
