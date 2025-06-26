@@ -16,7 +16,7 @@ Este projeto usa o modelo:
 > ✅ `TinyLlama/TinyLlama-1.1B-Chat-v1.0`  
 - Pequeno, leve, e instruído para chat — ideal para máquinas locais com VRAM limitada.
 - Infelizmente, teve um desempenho bem decepcionante com o que era esperado dados os chats atuais na web, uma abordagem com API da OpenAI tornaria isso muito mais fácil, e os problemas abordados seriam bem menores
-- Modelos menores são pouco otimizados para tarefas de chat, eles podem apresentar comportamento repetitivo (repetir uma rotina ou uma história, se la foi dada num prompt de instrução inicial), alteração de idioma numa mesma resposta, reproduzir o prompt de instrução mesmo quando claramente dito para não fazer isso, e outros problemas que não são esperados em modelos maiores.
+- Modelos menores são pouco otimizados para tarefas de chat, eles podem apresentar comportamento repetitivo (repetir uma rotina ou uma história, se ela foi dada num prompt de instrução inicial), alteração de idioma numa mesma resposta, reproduzir o prompt de instrução mesmo quando claramente dito para não fazer isso, e outros problemas que não são esperados em modelos maiores.
 - Modelos maiores por outro lado funcionam plenamente em chats, mas exigem uma GPU com pelo menos 16GB de VRAM, o que não é o caso da maioria dos usuários, nem mesmo do autor deste projeto.
 - Uma abordagem com API geraria outras preocupações menores em relação a contexto de resposta de modelo, embora prompts corretos ainda sejam úteis, mas daria mais espaço a outros pontos relacionados ao código em si, modularização, classes, aplicações RAG de verdade com vetorização e Vector Stores (como não é o caso aqui), e outras melhorias em funcionalidades, mas que não são o foco deste projeto.
 
