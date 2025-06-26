@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ```
 3.1 **Instale o PyTorch com suporte a CUDA**
 ```bash
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whlcu118
+https://pytorch.org/get-started/locally/
 ```
 
 3.2 **Instale o CUDA Toolkit**
